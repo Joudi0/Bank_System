@@ -44,3 +44,79 @@ Find and update currency exchange rates.
 Currency calculator for conversions.
 
 🛠️ Project Structure
+
+├── Core
+│   ├── clsBankClient.h
+│   ├── clsCurrency.h
+│   ├── clsPerson.h
+│   └── clsUser.h
+│
+├── Lib
+│   ├── Arrays.h
+│   ├── ClsDateLib.h
+│   ├── clsInputValidate.h
+│   ├── ClsPeriod.h
+│   ├── clsString.h
+│   ├── ClsUtil.h
+│   ├── Files.h
+│   └── strings.h
+│
+├── Screens
+│   ├── Clients
+│   ├── Currencies
+│   ├── User
+│   ├── clsMainScreen.h
+│   └── clsScreen.h
+│
+└── Global.h
+
+📷 Screenshots
+
+# Bank System Project
+
+## Screenshots
+
+### 1. Main Screen
+![Main Screen](screenshots/Main_Screen.png)
+
+### 2. Transactions Screen
+![Transactions Screen](screenshots/Transactions_Screen.png)
+
+### 3. Manage Users Screen
+![Manage Users Screen](screenshots/Manage_Users_Screen.png)
+
+### 4. Currency Exchange Screen
+![Currency Exchange Screen](screenshots/Currency_Exchange_Screen.png)
+
+### 5. Project Files And Folders (One)
+![Project Files One](screenshots/Project_Files_And_Folders_One.png)
+
+### 6. Project Files And Folders (Two)
+![Project Files Two](screenshots/Project_Files_And_Folders_Two.png)
+
+
+⚙️ Technologies
+
+Language: C++
+
+Paradigm: Object-Oriented Programming (OOP)
+
+Architecture: Modular (Core / Lib / Screens)
+
+Data Storage: Files
+
+🎯 Future Improvements
+
+Add Database integration (SQL / SQLite).
+
+Implement Graphical User Interface (GUI).
+
+Add Authentication with hashing.
+
+Improve logging system with timestamps & error handling.
+
+👤 Author
+
+Joudi
+
+Cybersecurity & Software Engineering Enthusiast
